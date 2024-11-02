@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './StudentNavbar';
+import FacultyNavbar from './FacultyNavbar';
 
 const DetailedView = () => {
   return (
     <div>
-        <NavBar />
+        <FacultyNavbar />
     <div className="min-h-screen bg-gray-100 py-10">
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Request Details</h2>

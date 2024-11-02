@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function FacultyNavbar() {
   const navigation = [
-    { name: 'Home', href: '/student-home', current: false },
+    { name: 'Home', href: '/faculty-home', current: false },
     { name: 'View Requests', href: '/faculty-request', current: false },
     { name: 'Students', href: '/faculty-students', current: false },
   ];
@@ -56,7 +56,7 @@ function FacultyNavbar() {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             {/* Bell icon wrapped in Link */}
             <Link
-              to="/history" // Specify the href for the bell icon
+              to="/faculty-history" // Specify the href for the bell icon
               className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
               <span className="absolute -inset-1.5" />
@@ -83,7 +83,7 @@ function FacultyNavbar() {
               >
                 <MenuItem>
                   <a
-                    href="#"
+                    href="/faculty-profile"
                     className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:outline-none"
                   >
                     Your Profile
